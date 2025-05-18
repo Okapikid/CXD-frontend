@@ -273,7 +273,7 @@ function Register() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="password">Access Code:</label>
+            <label htmlFor="password">Password:</label>
             <input
               type="password"
               id="password"
@@ -283,16 +283,16 @@ function Register() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="codeWord">Code Word:</label>
+            <label htmlFor="codeWord">Access Key:</label>
             <input
               type="password"
               id="codeWord"
               value={codeWord}
               onChange={(e) => setCodeWord(e.target.value)}
               required
-              placeholder="Enter the secret code word"
+              placeholder="Complete Training Module 2 for Access"
             />
-            <p className="form-hint">The code word is required for registration</p>
+            <p className="form-hint">The access key is required for registration</p>
           </div>
           {error && <div className="error-message">{error}</div>}
           <button type="submit" className="login-button">REGISTER</button>
