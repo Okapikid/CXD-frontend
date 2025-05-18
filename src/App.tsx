@@ -189,7 +189,7 @@ function Login({ onLogin }: { onLogin: (username: string, password: string) => P
             />
           </div>
           <div className="form-group">
-            <label htmlFor="password">Access Code:</label>
+            <label htmlFor="password">Password:</label>
             <input
               type="password"
               id="password"
